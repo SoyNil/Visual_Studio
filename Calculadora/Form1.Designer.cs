@@ -61,6 +61,7 @@
             btndel.TabIndex = 0;
             btndel.Text = "CE";
             btndel.UseVisualStyleBackColor = false;
+            btndel.Click += btndel_Click;
             // 
             // btn7
             // 
@@ -116,6 +117,7 @@
             btnel.TabIndex = 4;
             btnel.Text = "←";
             btnel.UseVisualStyleBackColor = false;
+            btnel.Click += btnel_Click;
             // 
             // btnmulti
             // 
