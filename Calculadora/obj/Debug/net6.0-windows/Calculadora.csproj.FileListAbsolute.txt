@@ -4,7 +4,6 @@ D:\Nilton\Visual\Calculadora\bin\Debug\net6.0-windows\Calculadora.runtimeconfig.
 D:\Nilton\Visual\Calculadora\bin\Debug\net6.0-windows\Calculadora.dll
 D:\Nilton\Visual\Calculadora\bin\Debug\net6.0-windows\Calculadora.pdb
 D:\Nilton\Visual\Calculadora\obj\Debug\net6.0-windows\Calculadora.csproj.AssemblyReference.cache
-D:\Nilton\Visual\Calculadora\obj\Debug\net6.0-windows\Calculadora.Form1.resources
 D:\Nilton\Visual\Calculadora\obj\Debug\net6.0-windows\Calculadora.Properties.Resources.resources
 D:\Nilton\Visual\Calculadora\obj\Debug\net6.0-windows\Calculadora.csproj.GenerateResource.cache
 D:\Nilton\Visual\Calculadora\obj\Debug\net6.0-windows\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,3 +15,4 @@ D:\Nilton\Visual\Calculadora\obj\Debug\net6.0-windows\refint\Calculadora.dll
 D:\Nilton\Visual\Calculadora\obj\Debug\net6.0-windows\Calculadora.pdb
 D:\Nilton\Visual\Calculadora\obj\Debug\net6.0-windows\Calculadora.genruntimeconfig.cache
 D:\Nilton\Visual\Calculadora\obj\Debug\net6.0-windows\ref\Calculadora.dll
+D:\Nilton\Visual\Calculadora\obj\Debug\net6.0-windows\Calculadora.Calculadora.resources

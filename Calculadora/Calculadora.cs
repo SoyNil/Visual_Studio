@@ -1,11 +1,11 @@
 namespace Calculadora
 {
-    public partial class Form1 : Form
+    public partial class Calculadora : Form
     {
         double primero;
         double segundo;
         string operador;
-        public Form1()
+        public Calculadora()
         {
             InitializeComponent();
         }
