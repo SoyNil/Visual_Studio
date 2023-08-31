@@ -46,7 +46,7 @@
             btnig = new Button();
             btnpt = new Button();
             btn0 = new Button();
-            textBox1 = new TextBox();
+            Caja = new TextBox();
             SuspendLayout();
             // 
             // btndel
@@ -74,6 +74,7 @@
             btn7.TabIndex = 1;
             btn7.Text = "7";
             btn7.UseVisualStyleBackColor = false;
+            btn7.Click += btn7_Click;
             // 
             // btn8
             // 
@@ -87,6 +88,7 @@
             btn8.TabIndex = 3;
             btn8.Text = "8";
             btn8.UseVisualStyleBackColor = false;
+            btn8.Click += btn8_Click;
             // 
             // btn9
             // 
@@ -100,6 +102,7 @@
             btn9.TabIndex = 5;
             btn9.Text = "9";
             btn9.UseVisualStyleBackColor = false;
+            btn9.Click += btn9_Click;
             // 
             // btnel
             // 
@@ -126,6 +129,7 @@
             btnmulti.TabIndex = 7;
             btnmulti.Text = "X";
             btnmulti.UseVisualStyleBackColor = false;
+            btnmulti.Click += btnmulti_Click;
             // 
             // btndiv
             // 
@@ -139,6 +143,7 @@
             btndiv.TabIndex = 6;
             btndiv.Text = "/";
             btndiv.UseVisualStyleBackColor = false;
+            btndiv.Click += btndiv_Click;
             // 
             // btnsum
             // 
@@ -152,6 +157,7 @@
             btnsum.TabIndex = 15;
             btnsum.Text = "+";
             btnsum.UseVisualStyleBackColor = false;
+            btnsum.Click += btnsum_Click;
             // 
             // btnmen
             // 
@@ -165,6 +171,7 @@
             btnmen.TabIndex = 14;
             btnmen.Text = "-";
             btnmen.UseVisualStyleBackColor = false;
+            btnmen.Click += btnmen_Click;
             // 
             // btn3
             // 
@@ -177,6 +184,7 @@
             btn3.TabIndex = 13;
             btn3.Text = "3";
             btn3.UseVisualStyleBackColor = false;
+            btn3.Click += btn3_Click;
             // 
             // btn6
             // 
@@ -190,6 +198,7 @@
             btn6.TabIndex = 12;
             btn6.Text = "6";
             btn6.UseVisualStyleBackColor = false;
+            btn6.Click += btn6_Click;
             // 
             // btn2
             // 
@@ -202,6 +211,7 @@
             btn2.TabIndex = 11;
             btn2.Text = "2";
             btn2.UseVisualStyleBackColor = false;
+            btn2.Click += btn2_Click;
             // 
             // btn5
             // 
@@ -215,6 +225,7 @@
             btn5.TabIndex = 10;
             btn5.Text = "5";
             btn5.UseVisualStyleBackColor = false;
+            btn5.Click += btn5_Click;
             // 
             // btn1
             // 
@@ -227,6 +238,7 @@
             btn1.TabIndex = 9;
             btn1.Text = "1";
             btn1.UseVisualStyleBackColor = false;
+            btn1.Click += btn1_Click;
             // 
             // btn4
             // 
@@ -240,6 +252,7 @@
             btn4.TabIndex = 8;
             btn4.Text = "4";
             btn4.UseVisualStyleBackColor = false;
+            btn4.Click += btn4_Click;
             // 
             // btnig
             // 
@@ -252,6 +265,7 @@
             btnig.TabIndex = 19;
             btnig.Text = "=";
             btnig.UseVisualStyleBackColor = false;
+            btnig.Click += btnig_Click;
             // 
             // btnpt
             // 
@@ -264,6 +278,7 @@
             btnpt.TabIndex = 18;
             btnpt.Text = ".";
             btnpt.UseVisualStyleBackColor = false;
+            btnpt.Click += btnpt_Click;
             // 
             // btn0
             // 
@@ -278,17 +293,18 @@
             btn0.TabIndex = 17;
             btn0.Text = "0";
             btn0.UseVisualStyleBackColor = false;
+            btn0.Click += btn0_Click;
             // 
-            // textBox1
+            // Caja
             // 
-            textBox1.BackColor = Color.Silver;
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Location = new Point(12, 21);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.ReadOnly = true;
-            textBox1.Size = new Size(258, 45);
-            textBox1.TabIndex = 20;
+            Caja.BackColor = Color.Silver;
+            Caja.BorderStyle = BorderStyle.None;
+            Caja.Location = new Point(12, 21);
+            Caja.Multiline = true;
+            Caja.Name = "Caja";
+            Caja.ReadOnly = true;
+            Caja.Size = new Size(258, 45);
+            Caja.TabIndex = 20;
             // 
             // Form1
             // 
@@ -296,7 +312,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Silver;
             ClientSize = new Size(285, 332);
-            Controls.Add(textBox1);
+            Controls.Add(Caja);
             Controls.Add(btnig);
             Controls.Add(btnpt);
             Controls.Add(btn0);
@@ -342,6 +358,6 @@
         private Button btnig;
         private Button btnpt;
         private Button btn0;
-        private TextBox textBox1;
+        private TextBox Caja;
     }
 }
