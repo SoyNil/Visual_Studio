@@ -9,6 +9,10 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+        Clases.ClsDiv obj1 = new Clases.ClsDiv();
+        Clases.ClsMulti obj2 = new Clases.ClsMulti();
+        Clases.ClsResta obj3 = new Clases.ClsResta();
+        Clases.ClsSuma obj4 = new Clases.ClsSuma();
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -94,7 +98,30 @@ namespace Calculadora
         }
         private void btnig_Click(object sender, EventArgs e)
         {
-
+            segundo = double.Parse(Caja.Text);
+            double Sum;
+            double Rest;
+            double Mul;
+            double Di;
+            switch (operador)
+            {
+                case "+":
+                    Sum = obj4.Suma((primero), (segundo));
+                    Caja.Text=Sum.ToString();
+                    break;
+                case "-":
+                    Rest = obj3.Resta((primero), (segundo));
+                    Caja.Text = Rest.ToString();
+                    break;
+                case "X":
+                    Mul = obj2.Multi((primero), (segundo));
+                    Caja.Text = Mul.ToString();
+                    break;
+                case "/":
+                    Di = obj1.Div((primero), (segundo));
+                    Caja.Text = Di.ToString();
+                    break;
+            }
         }
         private void btnpt_Click(object sender, EventArgs e)
         {
