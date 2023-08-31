@@ -37,7 +37,7 @@ namespace Calculadora
         private void btn6_Click(object sender, EventArgs e)
         {
             Caja.Text = Caja.Text + "6";
-        }  
+        }
         private void btn7_Click(object sender, EventArgs e)
         {
             Caja.Text = Caja.Text + "7";
@@ -70,12 +70,15 @@ namespace Calculadora
 
         private void btndel_Click(object sender, EventArgs e)
         {
-
+            Caja.Clear();
         }
         private void btnel_Click(object sender, EventArgs e)
         {
-
-        }  
+            if (Caja.Text.Length == 1)
+                Caja.Text = "";
+            else
+                Caja.Text = Caja.Text.Substring(0, Caja.Text.Length - 1);
+        }
         private void btnmen_Click(object sender, EventArgs e)
         {
             operador = "-";
@@ -107,7 +110,7 @@ namespace Calculadora
             {
                 case "+":
                     Sum = obj4.Suma((primero), (segundo));
-                    Caja.Text=Sum.ToString();
+                    Caja.Text = Sum.ToString();
                     break;
                 case "-":
                     Rest = obj3.Resta((primero), (segundo));
