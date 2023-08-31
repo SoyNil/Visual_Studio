@@ -76,6 +76,8 @@ namespace Calculadora
         {
             if (Caja.Text.Length == 1)
                 Caja.Text = "";
+            if (Caja.Text.Length == 0)
+                Caja.Text = "";
             else
                 Caja.Text = Caja.Text.Substring(0, Caja.Text.Length - 1);
         }
