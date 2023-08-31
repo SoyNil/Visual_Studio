@@ -28,273 +28,320 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
-            button13 = new Button();
-            button14 = new Button();
-            button15 = new Button();
-            button16 = new Button();
-            button17 = new Button();
-            button18 = new Button();
-            button19 = new Button();
+            btndel = new Button();
+            btn7 = new Button();
+            btn8 = new Button();
+            btn9 = new Button();
+            btnel = new Button();
+            btnmulti = new Button();
+            btndiv = new Button();
+            btnsum = new Button();
+            btnmen = new Button();
+            btn3 = new Button();
+            btn6 = new Button();
+            btn2 = new Button();
+            btn5 = new Button();
+            btn1 = new Button();
+            btn4 = new Button();
+            btnig = new Button();
+            btnpt = new Button();
+            btn0 = new Button();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
-            // button1
+            // btndel
             // 
-            button1.Cursor = Cursors.Hand;
-            button1.Location = new Point(12, 72);
-            button1.Name = "button1";
-            button1.Size = new Size(60, 45);
-            button1.TabIndex = 0;
-            button1.Text = "CE";
-            button1.UseVisualStyleBackColor = true;
+            btndel.BackColor = Color.FromArgb(224, 224, 224);
+            btndel.Cursor = Cursors.Hand;
+            btndel.FlatAppearance.BorderColor = Color.FromArgb(224, 224, 224);
+            btndel.FlatStyle = FlatStyle.Flat;
+            btndel.Location = new Point(12, 72);
+            btndel.Name = "btndel";
+            btndel.Size = new Size(60, 45);
+            btndel.TabIndex = 0;
+            btndel.Text = "CE";
+            btndel.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btn7
             // 
-            button2.BackColor = SystemColors.ButtonHighlight;
-            button2.Cursor = Cursors.Hand;
-            button2.Location = new Point(12, 123);
-            button2.Name = "button2";
-            button2.Size = new Size(60, 45);
-            button2.TabIndex = 1;
-            button2.Text = "7";
-            button2.UseVisualStyleBackColor = false;
+            btn7.BackColor = SystemColors.ButtonHighlight;
+            btn7.Cursor = Cursors.Hand;
+            btn7.FlatAppearance.BorderColor = Color.White;
+            btn7.FlatStyle = FlatStyle.Flat;
+            btn7.Location = new Point(12, 123);
+            btn7.Name = "btn7";
+            btn7.Size = new Size(60, 45);
+            btn7.TabIndex = 1;
+            btn7.Text = "7";
+            btn7.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btn8
             // 
-            button3.BackColor = SystemColors.ButtonHighlight;
-            button3.Cursor = Cursors.Hand;
-            button3.Location = new Point(78, 123);
-            button3.Name = "button3";
-            button3.Size = new Size(60, 45);
-            button3.TabIndex = 3;
-            button3.Text = "8";
-            button3.UseVisualStyleBackColor = false;
+            btn8.BackColor = SystemColors.ButtonHighlight;
+            btn8.Cursor = Cursors.Hand;
+            btn8.FlatAppearance.BorderColor = Color.White;
+            btn8.FlatStyle = FlatStyle.Flat;
+            btn8.Location = new Point(78, 123);
+            btn8.Name = "btn8";
+            btn8.Size = new Size(60, 45);
+            btn8.TabIndex = 3;
+            btn8.Text = "8";
+            btn8.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btn9
             // 
-            button4.Cursor = Cursors.Hand;
-            button4.Location = new Point(78, 72);
-            button4.Name = "button4";
-            button4.Size = new Size(60, 45);
-            button4.TabIndex = 2;
-            button4.Text = "C";
-            button4.UseVisualStyleBackColor = true;
+            btn9.BackColor = SystemColors.ButtonHighlight;
+            btn9.Cursor = Cursors.Hand;
+            btn9.FlatAppearance.BorderColor = Color.White;
+            btn9.FlatStyle = FlatStyle.Flat;
+            btn9.Location = new Point(144, 123);
+            btn9.Name = "btn9";
+            btn9.Size = new Size(60, 45);
+            btn9.TabIndex = 5;
+            btn9.Text = "9";
+            btn9.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnel
             // 
-            button5.BackColor = SystemColors.ButtonHighlight;
-            button5.Cursor = Cursors.Hand;
-            button5.Location = new Point(144, 123);
-            button5.Name = "button5";
-            button5.Size = new Size(60, 45);
-            button5.TabIndex = 5;
-            button5.Text = "9";
-            button5.UseVisualStyleBackColor = false;
+            btnel.BackColor = Color.FromArgb(224, 224, 224);
+            btnel.Cursor = Cursors.Hand;
+            btnel.FlatAppearance.BorderColor = Color.FromArgb(224, 224, 224);
+            btnel.FlatStyle = FlatStyle.Flat;
+            btnel.Location = new Point(78, 72);
+            btnel.Name = "btnel";
+            btnel.Size = new Size(60, 45);
+            btnel.TabIndex = 4;
+            btnel.Text = "←";
+            btnel.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // btnmulti
             // 
-            button6.Cursor = Cursors.Hand;
-            button6.Location = new Point(144, 72);
-            button6.Name = "button6";
-            button6.Size = new Size(60, 45);
-            button6.TabIndex = 4;
-            button6.Text = "←";
-            button6.UseVisualStyleBackColor = true;
+            btnmulti.BackColor = Color.FromArgb(224, 224, 224);
+            btnmulti.Cursor = Cursors.Hand;
+            btnmulti.FlatAppearance.BorderColor = Color.FromArgb(224, 224, 224);
+            btnmulti.FlatStyle = FlatStyle.Flat;
+            btnmulti.Location = new Point(210, 72);
+            btnmulti.Name = "btnmulti";
+            btnmulti.Size = new Size(60, 45);
+            btnmulti.TabIndex = 7;
+            btnmulti.Text = "X";
+            btnmulti.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // btndiv
             // 
-            button7.Cursor = Cursors.Hand;
-            button7.Location = new Point(210, 123);
-            button7.Name = "button7";
-            button7.Size = new Size(60, 45);
-            button7.TabIndex = 7;
-            button7.Text = "X";
-            button7.UseVisualStyleBackColor = true;
+            btndiv.BackColor = Color.FromArgb(224, 224, 224);
+            btndiv.Cursor = Cursors.Hand;
+            btndiv.FlatAppearance.BorderColor = Color.FromArgb(224, 224, 224);
+            btndiv.FlatStyle = FlatStyle.Flat;
+            btndiv.Location = new Point(144, 72);
+            btndiv.Name = "btndiv";
+            btndiv.Size = new Size(60, 45);
+            btndiv.TabIndex = 6;
+            btndiv.Text = "/";
+            btndiv.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // btnsum
             // 
-            button8.Cursor = Cursors.Hand;
-            button8.Location = new Point(210, 72);
-            button8.Name = "button8";
-            button8.Size = new Size(60, 45);
-            button8.TabIndex = 6;
-            button8.Text = "/";
-            button8.UseVisualStyleBackColor = true;
+            btnsum.BackColor = Color.FromArgb(224, 224, 224);
+            btnsum.Cursor = Cursors.Hand;
+            btnsum.FlatAppearance.BorderColor = Color.FromArgb(224, 224, 224);
+            btnsum.FlatStyle = FlatStyle.Flat;
+            btnsum.Location = new Point(210, 174);
+            btnsum.Name = "btnsum";
+            btnsum.Size = new Size(60, 45);
+            btnsum.TabIndex = 15;
+            btnsum.Text = "+";
+            btnsum.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // btnmen
             // 
-            button9.Cursor = Cursors.Hand;
-            button9.Location = new Point(210, 225);
-            button9.Name = "button9";
-            button9.Size = new Size(60, 45);
-            button9.TabIndex = 15;
-            button9.Text = "+";
-            button9.UseVisualStyleBackColor = true;
+            btnmen.BackColor = Color.FromArgb(224, 224, 224);
+            btnmen.Cursor = Cursors.Hand;
+            btnmen.FlatAppearance.BorderColor = Color.FromArgb(224, 224, 224);
+            btnmen.FlatStyle = FlatStyle.Flat;
+            btnmen.Location = new Point(210, 123);
+            btnmen.Name = "btnmen";
+            btnmen.Size = new Size(60, 45);
+            btnmen.TabIndex = 14;
+            btnmen.Text = "-";
+            btnmen.UseVisualStyleBackColor = false;
             // 
-            // button10
+            // btn3
             // 
-            button10.Cursor = Cursors.Hand;
-            button10.Location = new Point(210, 174);
-            button10.Name = "button10";
-            button10.Size = new Size(60, 45);
-            button10.TabIndex = 14;
-            button10.Text = "-";
-            button10.UseVisualStyleBackColor = true;
+            btn3.BackColor = SystemColors.ButtonHighlight;
+            btn3.FlatAppearance.BorderColor = Color.White;
+            btn3.FlatStyle = FlatStyle.Flat;
+            btn3.Location = new Point(144, 225);
+            btn3.Name = "btn3";
+            btn3.Size = new Size(60, 45);
+            btn3.TabIndex = 13;
+            btn3.Text = "3";
+            btn3.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // btn6
             // 
-            button11.BackColor = SystemColors.ButtonHighlight;
-            button11.Location = new Point(144, 225);
-            button11.Name = "button11";
-            button11.Size = new Size(60, 45);
-            button11.TabIndex = 13;
-            button11.Text = "3";
-            button11.UseVisualStyleBackColor = false;
+            btn6.BackColor = SystemColors.ButtonHighlight;
+            btn6.Cursor = Cursors.Hand;
+            btn6.FlatAppearance.BorderColor = Color.White;
+            btn6.FlatStyle = FlatStyle.Flat;
+            btn6.Location = new Point(144, 174);
+            btn6.Name = "btn6";
+            btn6.Size = new Size(60, 45);
+            btn6.TabIndex = 12;
+            btn6.Text = "6";
+            btn6.UseVisualStyleBackColor = false;
             // 
-            // button12
+            // btn2
             // 
-            button12.BackColor = SystemColors.ButtonHighlight;
-            button12.Cursor = Cursors.Hand;
-            button12.Location = new Point(144, 174);
-            button12.Name = "button12";
-            button12.Size = new Size(60, 45);
-            button12.TabIndex = 12;
-            button12.Text = "6";
-            button12.UseVisualStyleBackColor = false;
+            btn2.BackColor = SystemColors.ButtonHighlight;
+            btn2.FlatAppearance.BorderColor = Color.White;
+            btn2.FlatStyle = FlatStyle.Flat;
+            btn2.Location = new Point(78, 225);
+            btn2.Name = "btn2";
+            btn2.Size = new Size(60, 45);
+            btn2.TabIndex = 11;
+            btn2.Text = "2";
+            btn2.UseVisualStyleBackColor = false;
             // 
-            // button13
+            // btn5
             // 
-            button13.BackColor = SystemColors.ButtonHighlight;
-            button13.Location = new Point(78, 225);
-            button13.Name = "button13";
-            button13.Size = new Size(60, 45);
-            button13.TabIndex = 11;
-            button13.Text = "2";
-            button13.UseVisualStyleBackColor = false;
+            btn5.BackColor = SystemColors.ButtonHighlight;
+            btn5.Cursor = Cursors.Hand;
+            btn5.FlatAppearance.BorderColor = Color.White;
+            btn5.FlatStyle = FlatStyle.Flat;
+            btn5.Location = new Point(78, 174);
+            btn5.Name = "btn5";
+            btn5.Size = new Size(60, 45);
+            btn5.TabIndex = 10;
+            btn5.Text = "5";
+            btn5.UseVisualStyleBackColor = false;
             // 
-            // button14
+            // btn1
             // 
-            button14.BackColor = SystemColors.ButtonHighlight;
-            button14.Cursor = Cursors.Hand;
-            button14.Location = new Point(78, 174);
-            button14.Name = "button14";
-            button14.Size = new Size(60, 45);
-            button14.TabIndex = 10;
-            button14.Text = "5";
-            button14.UseVisualStyleBackColor = false;
+            btn1.BackColor = SystemColors.ButtonHighlight;
+            btn1.FlatAppearance.BorderColor = Color.White;
+            btn1.FlatStyle = FlatStyle.Flat;
+            btn1.Location = new Point(12, 225);
+            btn1.Name = "btn1";
+            btn1.Size = new Size(60, 45);
+            btn1.TabIndex = 9;
+            btn1.Text = "1";
+            btn1.UseVisualStyleBackColor = false;
             // 
-            // button15
+            // btn4
             // 
-            button15.BackColor = SystemColors.ButtonHighlight;
-            button15.Location = new Point(12, 225);
-            button15.Name = "button15";
-            button15.Size = new Size(60, 45);
-            button15.TabIndex = 9;
-            button15.Text = "1";
-            button15.UseVisualStyleBackColor = false;
+            btn4.BackColor = SystemColors.ButtonHighlight;
+            btn4.Cursor = Cursors.Hand;
+            btn4.FlatAppearance.BorderColor = Color.White;
+            btn4.FlatStyle = FlatStyle.Flat;
+            btn4.Location = new Point(12, 174);
+            btn4.Name = "btn4";
+            btn4.Size = new Size(60, 45);
+            btn4.TabIndex = 8;
+            btn4.Text = "4";
+            btn4.UseVisualStyleBackColor = false;
             // 
-            // button16
+            // btnig
             // 
-            button16.BackColor = SystemColors.ButtonHighlight;
-            button16.Cursor = Cursors.Hand;
-            button16.Location = new Point(12, 174);
-            button16.Name = "button16";
-            button16.Size = new Size(60, 45);
-            button16.TabIndex = 8;
-            button16.Text = "4";
-            button16.UseVisualStyleBackColor = false;
+            btnig.BackColor = Color.FromArgb(224, 224, 224);
+            btnig.FlatAppearance.BorderColor = Color.FromArgb(224, 224, 224);
+            btnig.FlatStyle = FlatStyle.Flat;
+            btnig.Location = new Point(210, 225);
+            btnig.Name = "btnig";
+            btnig.Size = new Size(60, 96);
+            btnig.TabIndex = 19;
+            btnig.Text = "=";
+            btnig.UseVisualStyleBackColor = false;
             // 
-            // button17
+            // btnpt
             // 
-            button17.Location = new Point(210, 276);
-            button17.Name = "button17";
-            button17.Size = new Size(60, 45);
-            button17.TabIndex = 19;
-            button17.Text = "=";
-            button17.UseVisualStyleBackColor = true;
+            btnpt.BackColor = Color.FromArgb(224, 224, 224);
+            btnpt.FlatAppearance.BorderColor = Color.FromArgb(224, 224, 224);
+            btnpt.FlatStyle = FlatStyle.Flat;
+            btnpt.Location = new Point(144, 276);
+            btnpt.Name = "btnpt";
+            btnpt.Size = new Size(60, 45);
+            btnpt.TabIndex = 18;
+            btnpt.Text = ".";
+            btnpt.UseVisualStyleBackColor = false;
             // 
-            // button18
+            // btn0
             // 
-            button18.Location = new Point(144, 276);
-            button18.Name = "button18";
-            button18.Size = new Size(60, 45);
-            button18.TabIndex = 18;
-            button18.Text = ".";
-            button18.UseVisualStyleBackColor = true;
+            btn0.BackColor = SystemColors.ButtonHighlight;
+            btn0.Cursor = Cursors.Hand;
+            btn0.FlatAppearance.BorderColor = Color.White;
+            btn0.FlatStyle = FlatStyle.Flat;
+            btn0.ForeColor = SystemColors.ControlText;
+            btn0.Location = new Point(12, 276);
+            btn0.Name = "btn0";
+            btn0.Size = new Size(126, 45);
+            btn0.TabIndex = 17;
+            btn0.Text = "0";
+            btn0.UseVisualStyleBackColor = false;
             // 
-            // button19
+            // textBox1
             // 
-            button19.BackColor = SystemColors.ButtonHighlight;
-            button19.Cursor = Cursors.Hand;
-            button19.ForeColor = SystemColors.ControlText;
-            button19.Location = new Point(12, 276);
-            button19.Name = "button19";
-            button19.Size = new Size(126, 45);
-            button19.TabIndex = 17;
-            button19.Text = "0";
-            button19.UseVisualStyleBackColor = false;
+            textBox1.BackColor = Color.Silver;
+            textBox1.BorderStyle = BorderStyle.None;
+            textBox1.Location = new Point(12, 21);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
+            textBox1.Size = new Size(258, 45);
+            textBox1.TabIndex = 20;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button17);
-            Controls.Add(button18);
-            Controls.Add(button19);
-            Controls.Add(button9);
-            Controls.Add(button10);
-            Controls.Add(button11);
-            Controls.Add(button12);
-            Controls.Add(button13);
-            Controls.Add(button14);
-            Controls.Add(button15);
-            Controls.Add(button16);
-            Controls.Add(button7);
-            Controls.Add(button8);
-            Controls.Add(button5);
-            Controls.Add(button6);
-            Controls.Add(button3);
-            Controls.Add(button4);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            BackColor = Color.Silver;
+            ClientSize = new Size(285, 332);
+            Controls.Add(textBox1);
+            Controls.Add(btnig);
+            Controls.Add(btnpt);
+            Controls.Add(btn0);
+            Controls.Add(btnsum);
+            Controls.Add(btnmen);
+            Controls.Add(btn3);
+            Controls.Add(btn6);
+            Controls.Add(btn2);
+            Controls.Add(btn5);
+            Controls.Add(btn1);
+            Controls.Add(btn4);
+            Controls.Add(btnmulti);
+            Controls.Add(btndiv);
+            Controls.Add(btn9);
+            Controls.Add(btnel);
+            Controls.Add(btn8);
+            Controls.Add(btn7);
+            Controls.Add(btndel);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button16;
-        private Button button17;
-        private Button button18;
-        private Button button19;
+        private Button btndel;
+        private Button btn7;
+        private Button btn8;
+        private Button btn9;
+        private Button btnel;
+        private Button btnmulti;
+        private Button btndiv;
+        private Button btnsum;
+        private Button btnmen;
+        private Button btn3;
+        private Button btn6;
+        private Button btn2;
+        private Button btn5;
+        private Button btn1;
+        private Button btn4;
+        private Button btnig;
+        private Button btnpt;
+        private Button btn0;
+        private TextBox textBox1;
     }
 }
